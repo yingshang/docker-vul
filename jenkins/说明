@@ -1,0 +1,3 @@
+docker run -it -p 8080:8080 -p 54632:54632 contain_id
+运行后进去web，http://127.0.0.1:8080/configureSecurity/?，然后修改JNLP节点代理的TCP端口，指定端口为54632，然后保存就可以测试
+，
